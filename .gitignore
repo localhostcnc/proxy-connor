@@ -3,7 +3,4 @@ booking-info-service-jeff
 calendar-component-kt
 listinginfo
 reviewList-ak
-
-# Compiled Dirs
-/public
-/client
+public/bundle.js
