@@ -1,7 +1,15 @@
 #calendar {
     margin-left: 80px;
-    width: 110%;
+    width: 120%;
     transform: scale(0.91);
+    position: absolute;
+    margin-top: -2050px;
+}
+
+#main {
+    margin-left: 80px;
+    position: absolute;
+    margin-top: -1650px;
 }
 
 #listingInfo {
@@ -10,8 +18,8 @@
 
 #app {
     margin-left: 900px;
-    margin-top: 50px;
     position: fixed;
+    transform: scale(.9);
 }
 
 body {
