@@ -1,0 +1,15 @@
+#calendar {
+    margin-left: 80px;
+    width: 110%;
+    transform: scale(0.91);
+}
+
+#listingInfo {
+    margin-left: -50px;
+}
+
+#app {
+    margin-left: 900px;
+    margin-top: 50px;
+    position: fixed;
+}
