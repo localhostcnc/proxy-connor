@@ -5,7 +5,7 @@ const DIST_DIR = path.join(__dirname, '/public');
 
 module.exports = {
   entry: {
-    bundle: `${SRC_DIR}/index.jsx`
+    bundle: `${SRC_DIR}/index.jsx`,
   },
   output: {
     filename: '[name].js',
@@ -19,6 +19,10 @@ module.exports = {
         query: {
           presets: ['@babel/preset-env', '@babel/preset-react'],
         },
+      },
+      {
+        test:/\.css$/,
+        use:['style-loader','css-loader']
       },
     ],
   },
